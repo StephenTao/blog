@@ -1,0 +1,12 @@
+--db
+    --sqlalchemy
+        --migration
+            --alchembic_migrations
+                --versions #存放生成的迁移脚本目录
+                --README
+                --env.py #每次执行Alembic都会加载这个模块
+                         #主要提供项目Sqlalchemy Model的连接
+                --script.py.mako #迁移脚本生成模版
+            --__init__.py
+            --alembic.ini #提供了一些基本的配置
+
